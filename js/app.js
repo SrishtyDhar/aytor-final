@@ -1,9 +1,7 @@
 // jquery
 
   $(function(){
-    new VenoBox({
-      selector: '.venobox',
-    });
+   
     
 // Related Product
 
@@ -256,6 +254,11 @@ $('.instagramCnt').slick({
 
 
 
+$(function(){
+  new VenoBox({
+    selector: '.venobox',
+  });
+})
 
 
  
