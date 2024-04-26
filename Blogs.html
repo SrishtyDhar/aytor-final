@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Aytor Blogs</title>
+    <!-- css link -->
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- venobox css link -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- css links end -->
+</head>
+<body>
+    
+    <header> 
+        <!-- navbar starts -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block">
+            <div class="container">
+                <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img src="./image/Logo.png" height="64px" alt="">
+              </a>
+              <!-- Logo ends-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarMenu">
+        
+                <!-- Desktop menu -->
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="file:///E:/Aytor-website-cls/index.html">Home</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Shop  <span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+        
+                <!-- submenu -->
+                 <div class="submenu">
+                    <ul>
+                        <li><a href="file:///E:/Aytor-website-cls/Shop.html">Shop - Grid</a></li>
+                        <li><a href="file:///E:/Aytor-website-cls/ShopDetails.html">Shop - Details Style One</a></li>
+                        <li><a href="file:///E:/Aytor-website-cls/compare.html">Compare</a></li>
+                        <li><a href="file:///E:/Aytor-website-cls/Cart.html">Cart</a></li>
+                        <li><a href="file:///E:/Aytor-website-cls/Wishlist.html">Wishlist</a></li>
+                    </ul>
+                 </div>
+                <!-- submenu ends -->
+        
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Pages <span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                     <!-- submenu -->
+                 <div class="submenu">
+                    <ul>
+                        <li><a href="file:///E:/Aytor-website-cls/about.html">About Us</a></li>
+                        <li><a href="#">Pages 2</a></li>
+                        <li><a href="#">Pages 3</a></li>
+                        <li><a href="#">Pages 4</a></li>
+                    </ul>
+                 </div>
+                <!-- submenu ends -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Features <span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></a>
+                         <!-- submenu -->
+                 <div class="submenu">
+                    <ul>
+                        <li><a href="#">Features 1</a></li>
+                        <li><a href="#">Features 2</a></li>
+                        <li><a href="#">Features 3</a></li>
+                        <li><a href="#">Features 4</a></li>
+                    </ul>
+                 </div>
+                <!-- submenu ends -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Blogs <span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                     <!-- submenu -->
+                 <div class="submenu">
+                    <ul>
+                        <li><a href="file:///E:/Aytor-website-cls/Blogs.html">BLOG</a></li>
+                        <li><a href="#">Blogs 2</a></li>
+                        <li><a href="#">Blogs 3</a></li>
+                        <li><a href="#">Blogs 4</a></li>
+                    </ul>
+                 </div>
+                <!-- submenu ends -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="file:///E:/Aytor-website-cls/Contact.html">Contact</a>
+                  </li>
+                  
+                </ul>
+                <!-- Desktop menu end -->
+              </div>
+              
+              <!-- links -->
+        
+              <div class="links">
+                <ul class="d-flex">
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="cartCounter">0</span>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+        
+              <!-- link ends -->
+            
+            </div>
+          </nav>
+        
+           <!-- Small navbar -->
+           <nav class="smNavbar d-block d-lg-none">
+           <div class="container">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" class="menuBtnToggoler"><i class="fa-solid fa-bars"></i></button>
+              </div>
+              <div class="col-7 text-center">
+                <a href=""><img height="50px" src="./image/Logo.png" alt=""></a>
+              </div>
+              <div class="col-3">
+                <!-- links -->
+        
+              <div class="links">
+                <ul class="d-flex justify-content-end">
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="cartCounter">0</span>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+        
+              <!-- link ends --> 
+              </div>
+            </div>
+           </div>
+           </nav>
+           <!-- Small navbar ends -->
+        
+           <!-- offcanvas menu -->
+           <div class="offcanvas offcanvas-start d-block d-lg-none" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+             <a href="#"><img height="50px" src="./image/Logo.png" alt=""></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-0">
+             <ul class="smallMenuLink">
+              <li><a href="file:///E:/Aytor-website-cls/index.html">Home</a></li>
+              <li>
+                <a href="#" role="button" data-bs-toggle="dropdown">Shop<span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                <ul class="dropdown-menu submenuSmall">
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/Shop.html">Shop-Grid</a></li>
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/ShopDetails.html">Shop- Details Style One</a></li>
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/compare.html">Compare</a></li>
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/Cart.html">Cart</a></li>
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/Wishlist.html">Wishlist</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" data-bs-toggle="dropdown">Pages<span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                <ul class="dropdown-menu submenuSmall">
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Page-2</a></li>
+                  <li><a class="dropdown-item" href="#">Page-3</a></li>
+                  <li><a class="dropdown-item" href="#">Page-4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" data-bs-toggle="dropdown">Features<span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                <ul class="dropdown-menu submenuSmall">
+                  <li><a class="dropdown-item" href="#">Feature-1</a></li>
+                  <li><a class="dropdown-item" href="#">Feature-2</a></li>
+                  <li><a class="dropdown-item" href="#">Feature-3</a></li>
+                  <li><a class="dropdown-item" href="#">Feature-4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" data-bs-toggle="dropdown">Blogs<span class="dropdownArrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                <ul class="dropdown-menu submenuSmall">
+                  <li><a class="dropdown-item" href="file:///E:/Aytor-website-cls/Blogs.html">BLOG</a></li>
+                  <li><a class="dropdown-item" href="#">Blog-2</a></li>
+                  <li><a class="dropdown-item" href="#">Blog-3</a></li>
+                  <li><a class="dropdown-item" href="#">Blog-4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="file:///E:/Aytor-website-cls/Contact.html">Contact</a>
+              </li>
+             </ul>
+              </div>
+            </div>
+          </div>
+           <!-- offcanvas menu end -->
+        
+        </header>
+        <!-- navbar ends -->
+
+
+<main>
+
+ <!-- About section  -->
+ <section id="About">
+    <div class="container">
+      <div class="aboutCnt">
+        <h2>Blog</h2>
+        <div class="row">
+          <a class="col-4" href="#">Home</a>
+          <h4 class="col-3">/</h4>
+           <a class="col-5" href="#">Blog</a>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- About section end -->
+
+
+
+
+
+
+<!-- Blog section-->
+<section id="Blog">
+    <div class="container">
+       <div class="blog-cnt">
+
+         <div class="blog-card">
+          <div class="blog-img">
+            <img src="./image/blog-pic.png" alt="">
+            <div class="blog-overlay">
+             <h6>January 04, 2022</h6>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h4>Color, Size, Material Swatches</h4>
+            <p>Authoritatively innovate reliable users for team building intellectual capital. Assertively.</p>
+            <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+        </div>
+
+       
+        <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Fashion coats 2022: key trends</h4>
+              <p>Progressively productize installed base testing procedures whereas resource.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Fashion Women Long Skat </h4>
+              <p>Compellingly monetize customized channels with distributed manufactured products.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Minimal Design Inspiration</h4>
+              <p>Authoritatively innovate reliable users for team building intellectual capital. Assertively.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Fashion T-shirt 2022: key trends</h4>
+              <p>Progressively productize installed base testing procedures whereas resource.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Women Stylish Bag & Shose </h4>
+              <p>Compellingly monetize customized channels with distributed manufactured products.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Women Fashionable Coats 2022</h4>
+              <p>Authoritatively innovate reliable users for team building intellectual capital. Assertively.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>Fashion Women New key trends</h4>
+              <p>Progressively productize installed base testing procedures whereas resource.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+
+          <div class="blog-card">
+            <div class="blog-img">
+              <img src="./image/blog-pic.png" alt="">
+              <div class="blog-overlay">
+               <h6>January 04, 2022</h6>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h4>New Trends Hudi Sweater </h4>
+              <p>Compellingly monetize customized channels with distributed manufactured products.</p>
+              <a href="#">Read More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+
+
+
+
+      
+
+       
+
+       </div>
+    </div>
+  </section>
+<!-- Blog section End-->
+
+
+
+<!-- Post section -->
+<section id="blog-post">
+    <section id="post">
+        <div class="container">
+           <div class="postCnt">
+              <div class="row align-items-center">
+                <div class="showing col-lg-6">
+                        <div class="show-post col-lg-10">
+                            <h5>Showing 12 of 16 Post</h5>
+                        </div>
+                </div>
+
+                <div class="default col-lg-4">
+                    <!-- pagination section -->
+                    <nav aria-label="...">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item">
+                            <a class="page-link"><span><i class="fa-solid fa-arrow-left-long"></i></span>Pre</a>
+                          </li>
+                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item" aria-current="page">
+                            <a class="page-link" href="#">2</a>
+                          </li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                          </li>
+                        </ul>
+                      </nav>
+                    <!-- pagination section end -->
+                  </div>
+    
+              </div>
+           </div>
+        </div>
+     </section>
+</section>
+<!-- Post section end -->
+
+
+</main>
+
+
+<footer>
+    <!-- Footer section -->
+    <section id="Footer2nd">
+    <section id="footer">
+      
+      <div class="container">
+    
+         <div class="footerCnt">
+    
+           <div class="footerCnt-one">
+             <div class="row align-items-center">
+               <div class="icons col-lg-4 order-lg-1 order-2">
+                 <ul>
+                   <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                   <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                   <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                 </ul>
+               </div>
+               <div class="logo col-lg-4 order-lg-2 order-1">
+                 <img src="./image/Footer-Logo (1).png" alt="">
+               </div>
+               <div class="Cards col-lg-4 order-lg-3 order-3">
+                 <img src="./image/25654-2-major-credit-card-logo-transparent-thumb 1.png" alt="">
+               </div>
+             </div>
+           </div>
+            
+    
+    
+             <div class="footerCnt-two">
+               <div class="row">
+    
+                 <div class="accountSup col-lg-2 col-6">
+                  <h5>My Account</h5>
+                  <ul>
+                   <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>My Account</a></li>
+                   <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>View Cart</a></li>
+                   <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Wishlist</a></li>
+                   <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Compare</a></li>
+                   <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>New Products</a></li>
+                  </ul>
+                 </div>
+    
+                 <div class="accountSup col-lg-2 col-6">
+                   <h5>Support</h5>
+                   <ul>
+                    <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Help</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Contact Us</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Feedback</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Customer Service</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-chevron-right"></i></span>Store Locations</a></li>
+                   </ul>
+                 </div>
+    
+                 <div class="openTime col-lg-2 col-5">
+                   <h5>Opening Time</h5>
+                   <p><span>Mon - Tue:</span>8AM - 10PM</p>
+                   <p><span>wed:</span>8AM - 7PM</p>
+                   <p><span>Fri:</span>7AM - 12PM</p>
+                   <p><span>Sat:</span>9AM - 8PM</p>
+                   <p><span>Sun:</span>Closed</p>
+                 </div>
+    
+                 <div class="contact col-lg-3 col-7">
+                   <h5>Contact Us</h5>
+    
+                   <div class="row">
+                     <div class="icon col-2"><span><i class="fa-solid fa-location-dot"></i></span></div>
+                     <div class="text col-10">
+                       <address>830 Broad way, New York, NY 10003,
+                         United States</address>
+                     </div>
+                   </div>
+    
+                   <div class="row">
+                     <div class="icon col-2"><span><i class="fa-solid fa-phone"></i></span></div>
+                     <div class="text col-10">
+                      <a href="tel:+18008660286">+18008660286</a>
+                     </div>
+                   </div>
+    
+                   <div class="row">
+                     <div class="icon  col-2"><span><i class="fa-solid fa-envelope"></i></span></div>
+                     <div class="text col-10">
+                       <a href="mailto:aetor.info@gmail.com">aetor.info@gmail.com</a>
+                     </div>
+                   </div>
+                   <h6><a href="#">info@aetor.com</a></h6>
+                 </div>
+    
+                 <div class="letter col-lg-3">
+                   <h5>News Letter</h5>
+                   <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                   <form action="">
+                     <div class="row">
+                       <input class="col-lg-8 col-9" type="email" placeholder="Enter your email....">
+                     <button class="col-lg-4 col-3"><h6>Subscribe</h6></button>
+                     </div>
+                   </form>
+                 </div>
+     
+               </div>
+             </div>
+    
+    
+         </div>
+    
+      </div>
+    
+      <!-- last footer -->
+      <section id="lastFooter">
+       <div class="container">
+         <p>© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft.</span></p>
+       </div>
+    </section>
+    <!-- last footer end -->
+    </section>
+    </section>
+    <!-- Footer section end -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js links -->
+    <!-- jquery -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- slick slider js -->
+    <script src="./js/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- final countdown -->
+    <script src="./js/jquery.countdown.min.js"></script>
+    <!-- venobox js link -->
+    <link rel="stylesheet" href="./js/venobox.min.js">
+    <!-- main js -->
+    <script src="./js/app.js"></script>
+    <!-- js links end -->
+</body>
+</html>
